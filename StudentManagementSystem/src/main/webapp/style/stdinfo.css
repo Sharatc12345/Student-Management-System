@@ -1,0 +1,107 @@
+.container{
+    border: 2px solid red;
+    border: none;
+    height: 40px;
+    margin: -8px -9px 0px -8px;
+    background-color: black;
+    display: flex;
+   justify-content: right;
+   justify-content: var(5px);
+   position: sticky;
+   top: 0;
+   
+}
+.container a{
+border: 2px solid rgb(241, 8, 8);
+border: none;
+    color: white;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-right: 20px; 
+}
+.container p{
+    margin-top: 10px;
+}
+.container a:hover{
+    background-color: rgb(81, 107, 107);
+}
+.container img{
+    border: 2px solid white;
+    border-radius: 70px;
+    width: 32px;
+    height: 32px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 20px;
+}
+.menu img{
+   width: 20px;
+   height: 20px;
+   margin-top: 5px;
+}
+
+#menu{
+    border: 2px solid rgb(253, 252, 252);
+    width: 15%;
+    height: 610px;
+    margin-left: -8px;
+    background-color: black;
+    transition: left 20s;
+    position: absolute;
+}
+.menu{
+    position: sticky;
+    top: 0px;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+ul li{
+    border: 1px solid white;
+    border: none;
+    border-radius: 10px;
+    margin-left: -40px;
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 1px;
+}
+ul li:hover{
+  background-color: rgb(195, 197, 198);
+}
+.container2{
+    border: 2px solid rgb(255, 253, 253);
+   margin-left: auto;
+    width: 85%;
+    height: 610px; 
+    margin-right: -9px;
+    background-color: blue;
+    margin-top: 0px;
+    overflow: scroll;
+
+}
+.container2 *{
+    color: white;
+    text-align: center;
+}
+.heading{
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    height: 60px;
+    margin: 0px -9px 0px -8px;
+    background-color: red;
+}
+.heading h2{
+    border: 2px solid ;
+    margin-top: 3px;
+    margin-left: 820px;
+    color:white;
+}
+.date{
+    margin-left: 1070px;
+    text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+ .con{
+      
+      height: 200px;
+      width: 40%;
+      margin: 80px auto;
+      display: flex;
+    }
+    .login{
+      
+      height: 100%;
+      width: 50%;
+      transition: 1s;
+     
+    }
+    .login:hover{
+     transform: scale(1.2);
+    }
+    .login img{
+    height: 100%;
+    width: 100%
+    }

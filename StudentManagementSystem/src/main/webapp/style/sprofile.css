@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+.container{
+            border: 2px solid black;
+            border: none;
+            height: 700px;
+        }
+
+        .photo{
+            border: 2px solid red;
+            border: none;
+            border: none;
+            width: 150px;
+            height: 150px;
+            margin-top: 5px;
+            margin-left: 5px;
+            position: absolute;
+        }
+        .photo img{
+            border: 2px solid rgb(90, 12, 236);
+            border: none;
+            border: none;
+            height: 150px;
+            width: 150px;
+        }
+        
+        .info{
+            border: 2px solid black;
+            border: none;
+            margin-top: 5px;
+            margin-left: auto;
+            margin-right: 5px;
+            width: 89%;
+            height: 150px;
+            background-color: azure;
+        }
+        .a1{
+            position: absolute;
+        }
+        .a2{
+            border: 2px solid azure;
+            margin-left: 600px;
+        }
+        .course{
+            border: 2px solid red;
+            border: none;
+            margin-top: 5px;
+            height: 300px;
+            text-align: center;
+        }
+        .subjects{
+            border: 2px solid greenyellow;
+            border: none;
+            margin-top: -5px;
+            height: 223px;
+            overflow: auto;
+        }
+        .subjects table{
+            border: 2px solid rgb(203, 21, 21);
+            border: none;
+            width: 100%;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .subjects table th{
+            background-color: blue;
+           
+            color: white;
+        }
+        .comtainer caption{
+            text-align: center;
+        }
+       
